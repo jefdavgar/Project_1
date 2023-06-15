@@ -1,0 +1,26 @@
+.nav_item {
+  display: flex;
+  width: 7rem;
+  height: 3rem;
+  column-gap: 10px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 0px;
+}
+.nav_item:hover {
+  background: linear-gradient(180deg, #f1db5b 0%, rgba(34, 34, 34, 0) 100%);
+}
+a {
+  text-decoration: none;
+}
+.nav_item:hover path {
+  fill: #da2811;
+}
+.nav_item:hover a {
+  color: #da2811;
+}
+li {
+  list-style: none;
+}
